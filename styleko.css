@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header-h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.header-nav {
+    font-size: 20px;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-li {
+    margin-left: 1em;
+}
+
+#ha {
+    text-decoration: none;
+    color: black;
+}
+
+#ha:hover {
+    color: rgb(94, 196, 255);
+     text-shadow: 1px 1px 1px black;
+}
+
+#ha:active {
+    color: #484343;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.main-h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.main-form{
+    text-align: center;
+}
+
+.main-inp{
+    background-color: #eaeaea;
+    border: none;
+    font-size: 15px;
+    color: black;
+    width: 300px;
+    height: 40px;
+    margin: 0.75em;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.main-inp:hover{
+    border: 1px solid rgb(94, 196, 255);
+}
+
+.main-ta{
+    background-color: #eaeaea;
+    font-family: Arial;
+    border: none;
+    font-size: 15px;
+    color: black;
+    margin: 0.75em;
+    padding: 0.5em;
+    width: 80%;
+    height: 100px;
+    resize: none;
+}
+
+.main-ta:hover{
+    border: 1px solid rgb(94, 196, 255);
+}
+
+.main-btn{
+    background-color: rgb(94, 196, 255);
+    border: none;
+    font-size: 20px;
+    color: #f8f8f8;
+    width: 200px;
+    height: 40px;
+    margin: auto 0 auto 0;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.main-btn:hover{
+    background-color: rgb(0, 118, 187);
+}
+
+.main-btn:active{
+    background-color: #545454;
+}
+
+.main-p{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 0.2em;
+    padding-top: 1em;
+}
+
+.main-img{
+    width: 10px;
+    padding-right: 0.5em;
+}
+
+.main-li{
+    font-size: 16px;
+    color: #484343;
+}
+
+.footer {
+    border-top: 1px solid black;
+    padding-top: 0.5em;
+    height: 30px;
+    background-color: #eaeaea;
+}
+
+.footer-p {
+    text-align: right;
+    margin-right: 0.5em;
+}
